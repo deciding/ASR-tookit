@@ -10,6 +10,9 @@ from google.cloud import speech
 from google.cloud.speech import enums
 from google.cloud.speech import types
 
+# python asr.py -i input, wav with 16k/8k hz, 16bit, and signed integer PCM encoding, single channel
+# python asr.py -d input, folder
+
 # Instantiates a client
 client = speech.SpeechClient()
 config = types.RecognitionConfig(
