@@ -1,0 +1,2 @@
+% $(cat env.sh)
+% python asr.py -i ... or python asr.py -d ..., commands are in asr.py
